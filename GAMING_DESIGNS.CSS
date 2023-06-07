@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(gaming_setup.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 170px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content h2 {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.cpu {
+    display: flex;
+    align-items: center;
+}
+
+.cpu img {
+    max-width: 300px;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.cpu-content {
+    flex: 1;
+}
+
+.cpu-content h3 {
+    color: royalblue;
+}
+
+.cpucooler {
+    display: flex;
+    align-items: center;
+}
+
+.cpucooler img {
+    max-width: 300px;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.cpucooler-text {
+    flex: 1;
+}
+
+.cpucooler-text h3 {
+    color: red;
+}
+
+.motherboard {
+    display: flex;
+    align-items: center;
+}
+
+.motherboard img {
+    max-width: 300px;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.motherboard-text {
+    flex: 1;
+}
+
+.motherboard-text h3 {
+    color: royalblue;
+}
+
+.memory {
+    display: flex;
+    align-items: center;
+}
+
+.memory img {
+    max-width: 300px;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.memory-text {
+    flex: 1;
+}
+
+.memory-text h3 {
+    color: red;
+}
+
+.storage {
+    display: flex;
+    align-items: center;
+}
+
+.storage img {
+    max-width: 300px;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.storage-text {
+    flex: 1;
+}
+
+.storage-text h3 {
+    color: royalblue;
+}
+
+.videocard {
+    display: flex;
+    align-items: center;
+}
+
+.videocard img {
+    max-width: 300px;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.videocard-text {
+    flex: 1;
+}
+
+.videocard-text h3 {
+    color: red;
+}
+
+.case {
+    display: flex;
+    align-items: center;
+}
+
+.case img {
+    max-width: 300px;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.case-text {
+    flex: 1;
+}
+
+.case-text h3 {
+    color: royalblue;
+}
+
+.powersupply {
+    display: flex;
+    align-items: center;
+}
+
+.powersupply img {
+    max-width: 300px;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.powersupply-text {
+    flex: 1;
+}
+
+.powersupply-text h3 {
+    color: red;
+}
+
+.monitor {
+    display: flex;
+    align-items: center;
+}
+
+.monitor img {
+    max-width: 300px;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.monitor-text {
+    flex: 1;
+}
+
+.monitor-text h3 {
+    color: royalblue;
+}
+
+.keyboard {
+    display: flex;
+    align-items: center;
+}
+
+.keyboard img {
+    max-width: 300px;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.keyboard-text {
+    flex: 1;
+}
+
+.keyboard-text h3 {
+    color: red;
+}
+
+.mouse {
+    display: flex;
+    align-items: center;
+}
+
+.mouse img {
+    max-width: 300px;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.mouse-text {
+    flex: 1;
+}
+
+.mouse-text h3 {
+    color: royalblue;
+}
+
+.headset {
+    display: flex;
+    align-items: center;
+}
+
+.headset img {
+    max-width: 300px;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.headset-text {
+    flex: 1;
+}
+
+.headset-text h3 {
+    color: red;
+}
+
+.router {
+    display: flex;
+    align-items: center;
+}
+
+.router img {
+    max-width: 300px;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.router-text {
+    flex: 1;
+}
+
+.router-text h3 {
+    color: red;
+}
+
+.cable {
+    display: flex;
+    align-items: center;
+}
+
+.cable img {
+    max-width: 300px;
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.cable-text {
+    flex: 1;
+}
+
+.cable-text h3 {
+    color: red;
+}
